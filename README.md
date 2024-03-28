@@ -19,6 +19,35 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (â™
 ![Inputs](images/UI.png)
 
 
+# MediaPipe for detection
+
+MediaPipe is an open-source framework developed by Google for building real-time multi-modal processing pipelines. It offers pre-built building blocks for common computer vision and machine learning tasks, including hand landmark detection. This makes it a user-friendly and efficient tool for developers to create applications that interact with the physical world through gestures.
+
+ **Keypoint Detection and Tracking**
+
+ In the context of hand gesture recognition, MediaPipe's hand landmarking model performs two crucial functions:
+ 
+ **Keypoint Detection:** The model identifies specific points of interest on the hand, such as the tip of each finger, the base of the palm, and wrist. These points are 
+ crucial  for understanding hand posture and movement. MediaPipe's model detects 21 of these keypoints with high accuracy.
+ 
+ **Tracking:** Once the keypoints are identified in a frame, MediaPipe can track them across subsequent video frames. This allows the system to understand the motion and  trajectory of the hand, making it possible to recognize gestures that involve movement over time.
+
+**Benefits of Using MediaPipe***
+
+ Here's why MediaPipe is a popular choice for hand gesture recognition tasks:
+ 
+ **Pre-built and efficient:** MediaPipe provides a pre-trained hand landmarking model, saving developers the time and effort of training a model from scratch. This makes it 
+ ideal for rapid prototyping and development.
+ Cross-platform: MediaPipe works across various platforms, including mobile, desktop, and web. This allows developers to build applications that can run on a wide range of 
+ devices.
+ **Real-time performance:** The framework is optimized for real-time processing, making it suitable for applications that require low latency, like gesture-based interfaces 
+ or sign language recognition.
+ **Customizable:** While MediaPipe offers pre-built solutions, it also allows for customization. Developers can fine-tune the model or integrate it with other modules to 
+ create more complex applications.
+
+ ![Inputs](images/download.png)
+
+
 # Word_to_Sentence model 
  Recognizing the sequence of signs and generating grammatically correct text that reflects the intended meaning.Disambiguation techniques handle signs with multiple 
  meanings based on context. The translated text appears on screen in real-time, fostering a natural flow of conversation.
