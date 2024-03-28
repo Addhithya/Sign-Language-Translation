@@ -39,7 +39,7 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (â™
 **4)Generate voice from interpreted text:** 
                The final step involves converting the interpreted text into spoken language using a text-to-speech synthesis model. This would allow for a real-time hand gesture to speech conversion system.
 
-![Inputs](images/Flow.png)
+![Inputs](images/Flow.jpg)
                
 
 
