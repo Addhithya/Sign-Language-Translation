@@ -53,3 +53,26 @@ Overall, Intel DevCloud played a critical role in accelerating our Sign Language
 >Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
     
 In summary, Intel Developer Cloud's advanced CPU and XPU technologies provided us with the computational power necessary to expedite model training and inference processes, ultimately accelerating our project development and deployment timelines. 🚀🕒
+
+
+<h2 align=center>Role of oneAPI DNN</h2>
+In this project we used large amount of dataset so normally it's take long time process.
+
+I choosed OneAPI DNN it's have optimized library and Python OneAPI kernal. So, it's give acceleration my project and gives high accuracy output. 
+
+<p align="center">
+  <img src=https://openbenchmarking.org/logos/pts_onednn.png alt="Image Description">
+</p>
+<h2 align=center>oneAPI Deep Neural Network Library (oneDNN)</h2>
+oneAPI Deep Neural Network Library (oneDNN) is an open-source cross-platform
+performance library of basic building blocks for deep learning applications.
+oneDNN is part of [oneAPI](https://oneapi.io).
+The library is optimized for Intel(R) Architecture Processors, Intel Graphics,
+and Arm\* 64-bit Architecture (AArch64)-based processors. oneDNN has
+experimental support for the following architectures: NVIDIA\* GPU,
+AMD\* GPU, OpenPOWER\* Power ISA (PPC64), IBMz\* (s390x), and RISC-V.
+
+oneDNN is intended for deep learning applications and framework
+developers interested in improving application performance
+on Intel CPUs and GPUs. Deep learning practitioners should use one of the
+[applications enabled with oneDNN](#applications-enabled-with-onednn).
