@@ -64,32 +64,31 @@ model.save("E:\Model.h5")
 
 
 
-# cap = cv2.VideoCapture(0)
-# # Initiate holistic model
-# with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
+ cap = cv2.VideoCapture(0)
+ # Initiate holistic model
+ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
+        while cap.isOpened():
+             ret, frame = cap.read()
     
-#     while cap.isOpened():
-#         ret, frame = cap.read()
-
-#         # Make detections
-#         image, results = mediapipe_detection(frame, holistic)
-
-#         # Export keypoints
-#         keypoints = Extract_KeyPoints(results)
-#         if len(sequence) == 30:
-#             res = model.predict(np.expand_dims(sequence, axis=0))[0]
-#             print(actions[np.argmax(res)])
-#             predictions.append(np.argmax(res))
-#         cv2.imshow('Raw Webcam Feed', image)
-
-#         if cv2.waitKey(10) & 0xFF == ord('q'):
-#             break
-
-# cap.release()
-# cv2.destroyAllWindows()
-
-# print(results)
-colors = [(245,117,16), (117,245,16), (16,117,245)]
+             # Make detections
+            image, results = mediapipe_detection(frame, holistic)
+    
+             # Export keypoints
+             keypoints = Extract_KeyPoints(results)
+             if len(sequence) == 30:
+                 res = model.predict(np.expand_dims(sequence, axis=0))[0]
+                 print(actions[np.argmax(res)])
+                 predictions.append(np.argmax(res))
+             cv2.imshow('Raw Webcam Feed', image)
+    
+             if cv2.waitKey(10) & 0xFF == ord('q'):
+                 break
+    
+     cap.release()
+     cv2.destroyAllWindows()
+    
+     print(results)
+    colors = [(245,117,16), (117,245,16), (16,117,245)]
 def prob_viz(res, actions, input_frame, colors):
     output_frame = input_frame.copy()
     for num, prob in enumerate(res):
