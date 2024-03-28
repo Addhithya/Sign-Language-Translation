@@ -22,6 +22,10 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (�
 
 
 
+# Flow Diagram 
+
+
+
 
 
 # Usage of Intel Developer Cloud 🌐💻
