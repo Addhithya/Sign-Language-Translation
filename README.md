@@ -19,6 +19,11 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (â™
 ![Inputs](images/UI.png)
 
 
+# Word_to_Sentence model 
+ Recognizing the sequence of signs and generating grammatically correct text that reflects the intended meaning.Disambiguation techniques handle signs with multiple 
+ meanings based on context. The translated text appears on screen in real-time, fostering a natural flow of conversation.
+
+![Inputs](images/word_to_sentence.png)
 
 
 
