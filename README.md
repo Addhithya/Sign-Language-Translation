@@ -48,7 +48,7 @@ Our Sign Language Gesture Translator project benefited tremendously from the res
 
 Overall, Intel DevCloud played a critical role in accelerating our Sign Language Gesture Translator development.  The combination of powerful hardware, optimized software tools (oneAPI), and a scalable cloud environment enabled us to achieve faster training times, reduced latency, and ultimately, a more efficient and effective translation system.
 
-![Comparison Graph](images/Comparison.png)
+![Inputs](images/comparison.png)
 
 >Comparison between time took in Intel Developers Cloud using OneDNN and Google Colab
     
