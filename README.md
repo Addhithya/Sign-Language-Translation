@@ -13,8 +13,10 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (â™
 
  1) **Chat freely:** Real-time translation lets conversations flow naturally .
  2) **Unlock opportunities:** Boost participation in education, employment, and healthcare .
-3) **Feel included:** Connect with others and break down communication barriers .
+ 3) **Feel included:** Connect with others and break down communication barriers .
 
+
+![Inputs](images/UI.png)
 
 
 
@@ -23,6 +25,22 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (â™
 
 
 # Flow Diagram 
+
+**1) Extract video frames from the video source:**
+                The first step involves breaking down the video into individual images, each representing a single frame captured at a specific point in time. This is typically done using computer vision libraries like OpenCV.
+
+
+**2) Detect hand landmarks from the video frame:** 
+                Here, a machine learning model, such as MediaPipeâ€™s hand landmarking model, comes into play. This model analyzes each frame and identifies the location of key points on the hand, like the tip of the thumb, base of the palm, and fingertips. These key points are represented as landmarks.
+
+**3)Interpret text from hand landmarks:** 
+                Once the hand landmarks are identified, the system can interpret the hand pose to potentially generate text. The specific meaning assigned to a hand pose depends on the context and the application. For instance, in sign language recognition, a specific combination of hand landmark locations could correspond to a particular letter or word.
+
+**4)Generate voice from interpreted text:** 
+               The final step involves converting the interpreted text into spoken language using a text-to-speech synthesis model. This would allow for a real-time hand gesture to speech conversion system.
+
+![Inputs](images/Flow.png)
+               
 
 
 
