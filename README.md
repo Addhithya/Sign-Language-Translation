@@ -20,7 +20,9 @@ This AI-powered app bridges the gap for deaf and hard-of-hearing individuals (â™
 
 # Demo
 [![Demo](Demo.png)]
-[https://youtu.be/GSVjDfwf9QI](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Youtube Link](Click to watch)](https://youtu.be/GSVjDfwf9QI)
+
+
 
 
 
