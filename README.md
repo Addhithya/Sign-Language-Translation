@@ -65,6 +65,21 @@ MediaPipe is an open-source framework developed by Google for building real-time
 
 ![Inputs](images/word_to_sentence.png)
 
+# Multi_language Model
+The Helsinki-NLP/opus-mt-en-multilingual model translates text into spoken languages, not sign language. However, it can aid sign language tasks indirectly by translating written content for sign language learners, supporting multilingual communication, or informing research for specialized sign language translation systems, facilitating accessibility and communication for the deaf community.
+
+![Inputs](images/Multi_language.png.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
