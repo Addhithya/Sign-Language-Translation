@@ -2,7 +2,7 @@ import openai
 
 def word_to_text(a):
 
-  openai.api_key = "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"
+  openai.api_key = "api_key"
 
 
 
