@@ -132,9 +132,9 @@ In summary, Intel Developer Cloud's advanced CPU and XPU technologies provided u
 
 
 <h2 align=center>Role of oneAPI DNN</h2>
-In this project we used large amount of dataset so normally it's take long time process.
+In this project we used large amount of dataset so normally it takes long time to process.
 
-I choosed OneAPI DNN it's have optimized library and Python OneAPI kernal. So, it's give acceleration my project and gives high accuracy output. 
+I choosed OneAPI DNN as it has optimized library and Python OneAPI kernal. So, it gives acceleration to my project and gives high accuracy output. 
 
 <p align="center">
   <img src=https://openbenchmarking.org/logos/pts_onednn.png alt="Image Description">
